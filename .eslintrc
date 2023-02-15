@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "prettier",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "camelcase": "error",
+    "comma-dangle": "off",
+    "consistent-return": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "indent": "off",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-restricted-globals": "off",
+    "no-return-assign": "off",
+    "no-console": "off",
+    "no-unused-vars": "error",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "prefer-arrow-callback": "error",
+
+    // React
+    "react/destructuring-assignment": "error",
+    "react/forbid-prop-types": "off",
+    "react/jsx-curly-newline": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/no-array-index-key": "warn",
+    "react/require-default-props": "warn",
+    // "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+
+    "import/order": "off",
+    "sort-imports": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "import/no-named-as-default": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error"
+  }
+}

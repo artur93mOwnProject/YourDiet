@@ -1,6 +1,6 @@
-import Header from "pages/Header/Header";
+import Header from 'pages/Header/Header';
 
-const ErrorPage = () => {
+function ErrorPage() {
   return (
     <>
       <header>
@@ -12,6 +12,6 @@ const ErrorPage = () => {
       </main>
     </>
   );
-};
+}
 
 export default ErrorPage;

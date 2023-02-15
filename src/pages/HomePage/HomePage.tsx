@@ -1,10 +1,11 @@
-const HomePage = () => {
+function HomePage() {
   return (
     <div>
       <p>HomePage</p>
-      <p>Welcome</p>
+      <button type="button">Welcome</button>
+      <button type="button">Welcome</button>
     </div>
   );
-};
+}
 
 export default HomePage;

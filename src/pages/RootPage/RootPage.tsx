@@ -1,8 +1,8 @@
-import Footer from "pages/Footer/Footer";
-import Header from "pages/Header/Header";
-import { Outlet } from "react-router-dom";
+import Footer from 'pages/Footer/Footer';
+import Header from 'pages/Header/Header';
+import { Outlet } from 'react-router-dom';
 
-const RootPage = () => {
+function RootPage() {
   return (
     <>
       <header className="header">
@@ -16,6 +16,6 @@ const RootPage = () => {
       </footer>
     </>
   );
-};
+}
 
 export default RootPage;
