@@ -2,5 +2,11 @@
 	"language.title": "Język",
 	"language.polish": "Polski",
 	"language.english": "Angielski",
-	"home.page": "Strona Głowna"
+
+	"domain.home.page": "Strona Główna",
+	"domain.your.diet": "Twoja Dieta",
+	"domain.add.meal": "Dodaj Posiłek",
+	"domain.browse.meal": "Przeglądaj Posiłki",
+	"domain.login": "Zaloguj się",
+	"domain.logout": "Wyloguj się"
 }

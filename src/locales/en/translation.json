@@ -2,5 +2,11 @@
 	"language.title": "Language",
 	"language.polish": "Polish",
 	"language.english": "English",
-	"home.page": "Home Page"
+
+	"domain.home.page": "Home Page",
+	"domain.your.diet": "Your Diet",
+	"domain.add.meal": "Add Meal",
+	"domain.browse.meal": "Browse Meal",
+	"domain.login": "Login",
+	"domain.logout": "Logout"
 }
