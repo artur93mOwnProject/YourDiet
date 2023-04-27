@@ -3,8 +3,12 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Globe } from 'react-bootstrap-icons';
 import { useTranslation } from 'react-i18next';
 
+import logoYourDiet from '../images/logo.png';
+
 const NavigationBar = () => {
 	const { t } = useTranslation();
+	const logo: string = logoYourDiet as string;
+	console.log(logo);
 
 	const onChangeLanguage = (language: string) => (event: any) => {
 		i18next
@@ -22,7 +26,7 @@ const NavigationBar = () => {
 	return (
 		<Navbar bg="dark" expand="lg" variant="dark">
 			<Navbar.Brand href="#home" className="px-3 px-lg-5">
-				Your Diet
+				<img src={logo} className="w-25" alt="logo_your_diet" />
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav" className="px-3">
